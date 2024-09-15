@@ -1,0 +1,67 @@
+/* src/About.css */
+
+/* Create a phone-like container with a fixed aspect ratio */
+.about-phone-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;  /* A typical phone screen width */
+    height: 550px; /* A typical phone screen height */
+    border-radius: 50px;  /* Rounded edges for the phone-like appearance */
+    background: linear-gradient(135deg, #a279fc 0%, #96dbe6 100%);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);  /* Simulate some depth */
+    padding: 20px;
+    margin: auto;
+    font-family: 'Arial', sans-serif;
+    position: relative;
+  }
+  
+  .about-blur-logo {
+    margin-bottom: 20px;
+  }
+  
+  .blurred-logo {
+    width: 100px;
+    filter: blur(8px);
+  }
+  
+  .about-card {
+    background: #fff;
+    border-radius: 16px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: auto;
+  }
+  
+  .about-card h1 {
+    margin: 0;
+    font-size: 1.8em;
+    color: #333;
+  }
+  
+  .about-card p {
+    margin: 20px 0;
+    font-size: 0.8em;
+    color: #555;
+
+  }
+  
+  .about-button {
+    padding: 5px 30px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #333;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .about-button:hover {
+    background-color: #555;
+  }
+  

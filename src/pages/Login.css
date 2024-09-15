@@ -1,0 +1,179 @@
+/* General styling for login container */
+.login-container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+}
+
+/* Login Box */
+.login-box {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 30px; /* Rounded corners for phone-like look */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  max-width: 350px;
+  width: 100%;
+  min-height: 600px; /* Taller height for a phone-like box */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+p {
+  color: gray;
+  font-size: 12px;
+}
+
+.form-toggle {
+  margin: 10px 0;
+}
+
+.form-toggle span {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.form-toggle .active {
+  text-decoration: underline;
+}
+
+/* Input Group */
+.input-group {
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.password-group {
+  position: relative;
+}
+
+.eye-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #888;
+}
+
+.eye-icon:hover {
+  color: #007bff;
+}
+
+/* Options styling (Remember password and checkbox) */
+.options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  margin-bottom: 1rem;
+  gap: 10px;
+}
+
+.options label {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.options input[type="checkbox"] {
+  margin-right: 1px; /* Space between checkbox and label */
+}
+.forgot-password {
+  margin-left: auto; /* Aligns the link to the far right */
+  font-size: 12px;
+}
+
+/* Login Button */
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Social Login Section */
+.social-login {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: space-evenly; /* Closer icons */
+  margin: 1rem 0;
+}
+
+.social-icons a {
+  margin: 0 8px; /* Closer space between icons */
+  text-decoration: none;
+}
+
+.facebook-icon {
+  color: #1877f2; /* Facebook blue */
+}
+
+.instagram-icon {
+  background: linear-gradient(45deg, #feda75, #d62976, #fa7e1e, #f58529, #dd2a7b); /* Instagram gradient */
+  color: white;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.pinterest-icon {
+  color: #e60023; /* Pinterest red */
+}
+
+.linkedin-icon {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+/* Fingerprint Login Section */
+.fingerprint-login {
+  text-align: center;
+  margin-top: 1.5rem; /* Positioned slightly lower */
+}
+
+.fingerprint-icon-box {
+  background-color: #007bff; /* Blue box background for fingerprint */
+  padding: 15px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 20px; /* Push down slightly */
+}
+
+.fingerprint-icon-box svg {
+  color: white; /* Make fingerprint icon white */
+}
+
+/* Error Message */
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+

@@ -1,0 +1,94 @@
+/* FAQ.css */
+
+.faq-section {
+    text-align: center;
+    padding: 20px;
+    background: linear-gradient(to right, #e0f7fa, #d1c4e9); /* Soft gradient background for the entire section */
+    font-family: Arial, sans-serif;
+  }
+  
+  .faq-section h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Container for all FAQs */
+  .faq-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 400px;
+    margin: 0 auto; /* Center align the FAQ container on mobile */
+  }
+  
+  /* Each FAQ card styling */
+  .faq-card {
+    display: flex;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for card effect */
+    padding: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(to bottom right, #ffffff, #f5f5f5); /* Soft background gradient for each card */
+  }
+  
+  .faq-card img {
+    width: 60px; /* Image size */
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%; /* Circular image */
+    margin-right: 10px; /* Spacing between image and content */
+  }
+  
+  .faq-content {
+    text-align: left;
+    flex: 1;
+  }
+  
+  .faq-card h3 {
+    color: #ff7043; /* Title color similar to orange */
+    font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .faq-card p {
+    color: #555; /* Description text color */
+    font-size: 14px;
+    line-height: 1.5;
+  }
+  
+  /* Hover effect for card */
+  .faq-card:hover {
+    transform: translateY(-5px); /* Hover effect for a slight lift */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Responsive design for phones */
+  @media (max-width: 600px) {
+    .faq-container {
+      max-width: 100%; /* Full-width on small screens */
+      padding: 0 10px; /* Add some padding on the sides */
+    }
+  
+    .faq-card {
+      flex-direction: row; /* Ensure horizontal layout of image and content */
+      padding: 10px;
+    }
+  
+    .faq-card img {
+      width: 50px; /* Slightly smaller image on phones */
+      height: 50px;
+    }
+  
+    .faq-card h3 {
+      font-size: 14px; /* Smaller title on phones */
+    }
+  
+    .faq-card p {
+      font-size: 12px; /* Smaller description on phones */
+    }
+  }
+  

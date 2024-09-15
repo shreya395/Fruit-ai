@@ -1,0 +1,158 @@
+/* .homepage-container {
+    text-align: center;
+    background: linear-gradient(180deg, #d4f1f9, #ffdde1);
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ffffff;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px; 
+    justify-items: center;
+    padding: 0px 30px;
+}
+
+.service-card {
+    width: 120px; 
+    height: 120px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-size: 1.2rem; 
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+}
+
+.chat-card {
+    background-color: #f7c6ff;
+    color: purple; 
+}
+
+.translate-card {
+    background-color: #c3f8b5;
+}
+
+.faq-card {
+    background-color: #fef5ae;
+    color: rgb(119, 0, 255); 
+}
+
+.ab-card {
+    
+    background-color: #e9ceff;
+    color: purple;
+}
+
+.service-card img {
+    width: 80px; 
+    height: 60px; 
+} */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .home-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #a8edeb 0%, #fed6e3 100%);
+  }
+  
+  .containr {
+    text-align: center;
+    padding: 20px;
+    border-radius: 30px;
+    background: linear-gradient(180deg, #d4f1f9, #ffdde1);
+    width: 320px;
+    height: 580px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #fff;
+    margin: 20px 0 10px;
+  }
+  
+  .tagline {
+    font-size: 14px;
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    margin-top: 20px;
+  }
+  
+  .box {
+    width: 120px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.2);
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    transition: transform 0.2s;
+  }
+  
+  .box:hover {
+    transform: scale(1.05);
+  }
+  
+  .chat {
+    background-color: #ffdd99;
+    color: blueviolet;
+  }
+  
+  .translate {
+    background-color: #a8ede9ca;
+  }
+  
+  .icon {
+    width: 60px;
+    height: auto;
+  }
+  
+  .faqs {
+    background-color: #ebafffc2;
+    color: rgba(0, 0, 255, 0.655);
+  }
+  
+  .about {
+    background-color: #ffccff;
+    color: blueviolet;
+  }
+  
+  .empty {
+    background-color: #ffdd9990;
+  }
+  .pty{
+    background-color: rgba(127, 255, 225, 0.329);
+  }
+  

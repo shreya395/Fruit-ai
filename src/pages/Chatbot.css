@@ -1,0 +1,15 @@
+/* Chatbot.css */
+
+.chatbot-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  width: 100%; /* Full width */
+  background-color: #f7f7f7; /* Optional background color */
+}
+
+.segment {
+  display: inline-block;
+  max-width: 100%; /* Ensure it doesn’t overflow on smaller screens */
+}
